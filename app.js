@@ -4,7 +4,7 @@ const si = require('systeminformation');
 
 const client = new net.Socket();
 
-client.connect(1983, '192.168.0.102', () => {
+client.connect(1983, '0.0.0.0', () => {
     console.log('TCP connection established with the server.');
     getDataSystem()
         .then(res => {
