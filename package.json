@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jacsonlinux/socketclient#readme",
   "dependencies": {
+    "websocket": "^1.0.31",
     "systeminformation": "^4.21.1",
     "node-windows": "^1.0.0-beta.1"
   }
